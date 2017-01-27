@@ -1,6 +1,6 @@
 var CACHE_NAME = 'uno-cache-v1';
 var urls = [
-    '/uno',
+    '/uno/',
     '/uno/js/main.js'
 ];
 self.addEventListener('install', function (event) {
