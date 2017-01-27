@@ -1,4 +1,4 @@
-document.onload(function(){
+
     if('serviceWorker' in navigator){
         window.addEventListener('load', function(){
             navigator.serviceWorker.register('sw/sw.js').then(function(registration){
@@ -8,4 +8,3 @@ document.onload(function(){
             });
         });
     }
-});
